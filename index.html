@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+
+    <div class="passward">
+        <h2>passward generator</h2>
+        <input type="number" id="input" min="1" placeholder="Write Passward Length" > <br>  <br>
+        <button id="btn">Generate My Passward</button>
+        <h3 id="pass"></h3>
+        <button id="copyBtn" style="display:none;">Copy Password</button>
+    </div>
+
+
+    <div class="cal">
+        <h2>Calculate Your BMI</h2>
+        <input type="number" placeholder="height in Feet" id="height"><br>
+        <input type="number" placeholder="Weight in KG" id="kg"><br>
+        <button id="btn2">Calculate</button>
+        <h3 id="show"> </h3>
+        <p id="review"> </p>
+    </div>
+
+    
+    
+    <script>
+        // document.getElementById('btn2').addEventListener('click',function(){
+
+           
+          
+        //     let height = document.getElementById('height');
+        //     let  heightValue = height.value ;
+        //     heightValue = 0.3 * heightValue ;
+
+            
+        //     let kg = document.getElementById('kg');
+        //     let kgValue = kg.value ;
+
+           
+
+        //     let calculate = kgValue / (heightValue * heightValue) ;
+
+        //     let show = document.getElementById('show');
+        //       show.innerText = calculate.toFixed(2) ;
+
+        //     let review = document.getElementById('review');
+
+        //     if(calculate< 18.5 ){
+        //         review.innerText = "you are Under Weight"
+        //         return;
+        //     }
+
+        //     if(calculate< 24 ){
+        //         review.innerText = "you are Healthy! Sabash"
+        //         return;
+        //     }
+
+        //     if(calculate< 28 ){
+        //         review.innerText = "you are Over Weihght. Kom Kha Motko."
+        //         return;
+        //     }
+
+        //     if(calculate> 28 ){
+        //         review.innerText = "Motko Khawa Dawa Koma Tui"
+        //         return;
+        //     }
+            
+
+        //     kg.value = '';
+        //     height.value = '';
+        // })
+
+    </script>
+
+    <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,51 @@
+body{
+    text-align: center;
+    background-color: cornsilk;
+    padding-top: 30px;
+}
+.passward{
+    padding: 15px;
+    border: 2px solid black;
+    width: 300px;
+    margin: 0 auto;
+    background-color: coral;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.passward button{
+    background-color: rgb(255, 194, 80);
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+.passward input , .cal input{
+    padding: 12px 28px;
+    border-radius: 5px;
+    border: 0;
+    margin-bottom: 10px;
+    outline: 0;
+}
+
+.cal{
+    margin-top: 20px;
+    padding: 15px;
+    border: 2px solid black;
+    width: 300px;
+    margin: 0 auto;
+    background-color: indianred;
+    border-radius: 6px;
+    color: white;
+}
+.cal button{
+    background-color: royalblue;
+    padding: 12px 28px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+}
