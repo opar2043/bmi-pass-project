@@ -2,6 +2,7 @@ body{
     text-align: center;
     background-color: cornsilk;
     padding-top: 30px;
+    height: 1000px;
 }
 .passward{
     padding: 15px;
@@ -39,6 +40,7 @@ body{
     background-color: indianred;
     border-radius: 6px;
     color: white;
+    margin-bottom: 30px;
 }
 .cal button{
     background-color: royalblue;
@@ -48,4 +50,29 @@ body{
     font-size: 14px;
     font-weight: 600;
     color: white;
+}
+.qut{
+    padding: 15px;
+    border: 2px solid black;
+    width: 300px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.qut > p{
+    font-weight: 500;
+}
+
+.qut button{
+    background-color: rgb(4, 4, 155);
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 0;
+    font-size: 14px;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 15px;
+    
 }
